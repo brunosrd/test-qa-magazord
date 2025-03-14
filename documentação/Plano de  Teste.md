@@ -119,7 +119,7 @@
   
 ## 2º Cenário: Plano de testes para validar a integração com Bling
   
-### 1.Documentação e Materiais de Apoio
+### 1. Documentação e Materiais de Apoio
 
 **Identificação da Documentação:**
 
@@ -145,7 +145,7 @@
 - Para rastreamento de requisitos, criação de casos de teste, gerenciamento de tarefas e colaborar com a equipe: Jira + Xray e Trello.
 - Para análise de conteúdo textual, extração de informações significativas e identificação de padrões: MyMap.
 
-### 2.Abrangência dos Testes
+### 2. Abrangência dos Testes
 
 **Funcionalidades de Integração:**
 
@@ -165,7 +165,7 @@
 - **Frequência de Uso:** Priorizo funcionalidades que são usadas com mais frequência pelos usuários.
 - **Complexidade da Implementação:** Levo em conta a complexidade técnica da funcionalidade e a probabilidade de erros durante a implementação.
 
-### 3.Execução dos Testes
+### 3. Execução dos Testes
 
 **Ambiente de Teste:**
 
@@ -299,10 +299,12 @@
 
 ## 4º Cenário: Validar campos de cadastro alterados
 
-#### Casos de Uso
+### Casos de Uso
 
-**Nome Completo:**
+#### Nome Completo
+
 **Cenários de Sucesso:** Verifico a inserção correta de nomes completos válidos.
+
 **Cenários de Falha:**
 
 - Testo falhas na inserção de campo vazio.
@@ -310,8 +312,10 @@
 - Testo falhas na inserção de nomes com caracteres especiais.
 - Testo falhas na inserção de nomes com números.
 
-**E-mail:**
+#### E-mail
+
 **Cenários de Sucesso:** Verifico a inserção correta de e-mails válidos.
+
 **Cenários de Falha:**
 
 - Testo falhas na inserção de campo vazio.
@@ -319,8 +323,10 @@
 - Testo falhas na inserção de e-mails com domínios inválidos.
 - Testo falhas na inserção de e-mails com espaços em branco.
 
-**Número de Telefone:**
+#### Número de Telefone
+
 **Cenários de Sucesso:** Verifico a inserção correta de números de telefone válidos.
+
 **Cenários de Falha:**
 
 - Testo falhas na inserção de campo vazio.
@@ -330,8 +336,10 @@
 - Testo falhas na inserção de números de telefone com letras.
 - Testo falhas na inserção de números de telefone em formatos internacionais.
 
-**Data de Nascimento:**
+#### Data de Nascimento
+
 **Cenários de Sucesso:** Verifico a inserção correta de datas de nascimento válidas.
+
 **Cenários de Falha:**´
 
 - Testo falhas na inserção de campo vazio.
@@ -339,31 +347,39 @@
 - Testo falhas na inserção de datas de nascimento no futuro.
 - Testo falhas na inserção de datas de nascimento com letras.
 
-**Rua:**
+#### Rua
+
 **Cenários de Sucesso:** Verifico a inserção correta de ruas válidas.
+
 **Cenários de Falha:**
 
 - Testo falhas na inserção de campo vazio.
 - Testo falhas na inserção de ruas com caracteres especiais.
 
-**Cidade:**
+#### Cidade
+
 **Cenários de Sucesso:** Verifico a inserção correta de cidades válidas.
+
 **Cenários de Falha:**
 
 - Testo falhas na inserção de campo vazio.
 - Testo falhas na inserção de cidades com caracteres especiais.
 - Testo falhas na inserção de cidades com números.
 
-**Estado:**
+#### Estado
+
 **Cenários de Sucesso:** Verifico a inserção correta de estados válidos.
+
 **Cenários de Falha:**
 
 - Testo falhas na inserção de campo vazio.
 - Testo falhas na inserção de estados com caracteres especiais.
 - Testo falhas na inserção de estados com números.
 
-**CEP:**
+#### CEP
+
 **Cenários de Sucesso:** Verifico a inserção correta de CEPs válidos.
+
 **Cenários de Falha:**
 
 - Testo falhas na inserção de CEPs com caracteres especiais.
