@@ -340,7 +340,7 @@
 
 **Cenários de Sucesso:** Verifico a inserção correta de datas de nascimento válidas.
 
-**Cenários de Falha:**´
+**Cenários de Falha:**
 
 - Testo falhas na inserção de campo vazio.
 - Testo falhas na inserção de datas de nascimento com formato inválido.
