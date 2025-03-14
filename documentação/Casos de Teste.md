@@ -5,16 +5,18 @@
 ### CT-001 Verificação da Sincronização Correta de Quantidades de Produtos no E-commerce
 
 **Descrição:** Verificar se a quantidade de produtos é atualizada corretamente no sistema de e-commerce.
+
 **Pré-condições:** A integração entre o e-commerce e o marketplace deve estar configurada e ativa. O usuário deve estar logado no sistema de e-commerce com credenciais válidas.
+
 **Prioridade:** Alta
+
 **Passo a passo para execução:**
 1.Navegar até a seção de gerenciamento de produtos e selecionar um produto específico.
 2.Atualizar a quantidade de estoque do produto no e-commerce.
 3.Salvar as alterações e verificar se a atualização foi bem-sucedida no e-commerce.
 4.Verificar a quantidade de estoque do produto no e-commerce para garantir que a atualização foi aplicada corretamente.
-**Resultado esperado:**
 
-- A quantidade de estoque no e-commerce deve refletir a atualização realizada.
+**Resultado esperado:** - A quantidade de estoque no e-commerce deve refletir a atualização realizada.
 
 ### CT-002: Verificação da Sincronização Correta de Quantidades de Produtos no Marketplace
 
