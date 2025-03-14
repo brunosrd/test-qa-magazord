@@ -11,214 +11,249 @@
 **Prioridade:** Alta
 
 **Passo a passo para execução:**
-1.Navegar até a seção de gerenciamento de produtos e selecionar um produto específico.
-2.Atualizar a quantidade de estoque do produto no e-commerce.
-3.Salvar as alterações e verificar se a atualização foi bem-sucedida no e-commerce.
-4.Verificar a quantidade de estoque do produto no e-commerce para garantir que a atualização foi aplicada corretamente.
 
-**Resultado esperado:** - A quantidade de estoque no e-commerce deve refletir a atualização realizada.
+1. Navegar até a seção de gerenciamento de produtos e selecionar um produto específico.
+2. Atualizar a quantidade de estoque do produto no e-commerce.
+3. Salvar as alterações e verificar se a atualização foi bem-sucedida no e-commerce.
+4. Verificar a quantidade de estoque do produto no e-commerce para garantir que a atualização foi aplicada corretamente.
+
+**Resultado esperado:** A quantidade de estoque no e-commerce deve refletir a atualização realizada.
 
 ### CT-002: Verificação da Sincronização Correta de Quantidades de Produtos no Marketplace
 
 **Descrição:** Verificar se a quantidade de produtos no marketplace é atualizada corretamente após a alteração no e-commerce.
-**Pré-condições:** A integração entre o e-commerce e o marketplace deve estar configurada e ativa. O usuário deve estar logado no sistema de e-commerce com credenciais válidas.
-**Prioridade:** Alta
-**Passo a passo para execução:**
-1.Navegar até a seção de gerenciamento de produtos no e-commerce e selecionar um produto específico.
-2.Atualizar a quantidade de estoque do produto no e-commerce.
-3.Salvar as alterações e verificar se a atualização foi bem-sucedida no e-commerce.
-4.Navegar até o marketplace e verificar a quantidade de estoque do produto para garantir que a atualização foi sincronizada corretamente.
-**Resultado esperado:**
 
-- A quantidade de estoque no marketplace deve refletir a atualização realizada no e-commerce.
+**Pré-condições:** A integração entre o e-commerce e o marketplace deve estar configurada e ativa. O usuário deve estar logado no sistema de e-commerce com credenciais válidas.
+
+**Prioridade:** Alta
+
+**Passo a passo para execução:**
+
+1. Navegar até a seção de gerenciamento de produtos no e-commerce e selecionar um produto específico.
+2. Atualizar a quantidade de estoque do produto no e-commerce.
+3. Salvar as alterações e verificar se a atualização foi bem-sucedida no e-commerce.
+4. Navegar até o marketplace e verificar a quantidade de estoque do produto para garantir que a atualização foi sincronizada corretamente.
+
+**Resultado esperado:** A quantidade de estoque no marketplace deve refletir a atualização realizada no e-commerce.
 
 ### CT-003: Falha na Atualização de Estoque Devido a Problemas de API
 
 **Descrição:** Verificar se o sistema de e-commerce lida corretamente com falhas na atualização de estoque devido a problemas de API.
-**Pré-condições:** A integração entre o e-commerce e o marketplace deve estar configurada e ativa. O usuário deve estar logado no sistema de e-commerce com credenciais válidas.
-**Prioridade:** Alta
-**Passo a passo para execução:**
-1.Navegar até a seção de gerenciamento de produtos e selecionar um produto específico.
-2.Usar Postman para enviar uma resposta de erro 500 ao tentar atualizar o estoque.
-3.Tentar atualizar a quantidade de estoque do produto no e-commerce.
-4.Salvar as alterações e verificar se uma mensagem de erro é exibida.
-5.Verificar a quantidade de estoque do produto no e-commerce para garantir que a atualização não foi aplicada devido ao problema de API.
-**Resultado esperado:**
 
-- O sistema deve exibir uma mensagem de erro clara indicando o problema de API.
-- A quantidade de estoque no e-commerce não deve ser alterada.
+**Pré-condições:** A integração entre o e-commerce e o marketplace deve estar configurada e ativa. O usuário deve estar logado no sistema de e-commerce com credenciais válidas.
+
+**Prioridade:** Alta
+
+**Passo a passo para execução:**
+
+1. Navegar até a seção de gerenciamento de produtos e selecionar um produto específico.
+2. Usar Postman para enviar uma resposta de erro 500 ao tentar atualizar o estoque.
+3. Tentar atualizar a quantidade de estoque do produto no e-commerce.
+4. Salvar as alterações e verificar se uma mensagem de erro é exibida.
+5. Verificar a quantidade de estoque do produto no e-commerce para garantir que a atualização não foi aplicada devido ao problema de API.
+
+**Resultado esperado:** O sistema deve exibir uma mensagem de erro clara indicando o problema de API. A quantidade de estoque no e-commerce não deve ser alterada.
 
 ### CT-004: Testes de Desempenho com Grandes Volumes de Atualizações de Estoque
 
 **Descrição:** Verificar se o sistema de e-commerce lida corretamente com grandes volumes de atualizações de estoque.
-**Pré-condições:** A integração entre o e-commerce e o marketplace deve estar configurada e ativa. O usuário deve estar logado no sistema de e-commerce com credenciais válidas.
-**Prioridade:** Alta
-**Passo a passo para execução:**
-1.Navegar até a seção de gerenciamento de produtos e selecionar um conjunto de produtos.
-2.Configurar JMeter para enviar múltiplas requisições de atualização de estoque simultaneamente.
-3.Executar o teste de carga e monitorar o desempenho do sistema.
-4.Verificar se todas as atualizações de estoque foram aplicadas corretamente.
-5.Registrar o tempo de resposta e qualquer erro ocorrido durante o teste.
-**Resultado esperado:**
 
-- O sistema deve ser capaz de lidar com grandes volumes de atualizações de estoque sem falhas.
-- O tempo de resposta deve ser aceitável e todas as atualizações devem ser aplicadas corretamente.
+**Pré-condições:** A integração entre o e-commerce e o marketplace deve estar configurada e ativa. O usuário deve estar logado no sistema de e-commerce com credenciais válidas.
+
+**Prioridade:** Alta
+
+**Passo a passo para execução:**
+
+1. Navegar até a seção de gerenciamento de produtos e selecionar um conjunto de produtos.
+2. Configurar JMeter para enviar múltiplas requisições de atualização de estoque simultaneamente.
+3. Executar o teste de carga e monitorar o desempenho do sistema.
+4. Verificar se todas as atualizações de estoque foram aplicadas corretamente.
+5. Registrar o tempo de resposta e qualquer erro ocorrido durante o teste.
+
+**Resultado esperado:** O sistema deve ser capaz de lidar com grandes volumes de atualizações de estoque sem falhas. O tempo de resposta deve ser aceitável e todas as atualizações devem ser aplicadas corretamente.
 
 ### CT-005: Verificação de Acesso Não Autorizado à API de Estoque
 
 **Descrição:** Verificar se o sistema de e-commerce impede o acesso não autorizado à API de estoque.
-**Pré-condições:** A integração entre o e-commerce e o marketplace deve estar configurada e ativa. O usuário deve estar logado no sistema de e-commerce com credenciais válidas.
-**Massa de dados:** Credenciais não autorizadas.
-**Prioridade:** Alta
-**Passo a passo para execução:**
-1.Navegar até a seção de gerenciamento de produtos e selecionar um produto específico.
-2.Usar Postman para enviar uma requisição à API de estoque com credenciais não autorizadas.
-3.Tentar acessar ou atualizar a quantidade de estoque do produto usando essas credenciais.
-4.Verificar a resposta do sistema e qualquer mensagem de erro exibida.
-5.Registrar o comportamento do sistema e garantir que o acesso não autorizado seja bloqueado.
-**Resultado esperado:**
 
-- O sistema deve exibir uma mensagem de erro clara indicando que o acesso não é autorizado.
-- A API de estoque deve bloquear qualquer tentativa de acesso ou atualização com credenciais não autorizadas.
+**Pré-condições:** A integração entre o e-commerce e o marketplace deve estar configurada e ativa. O usuário deve estar logado no sistema de e-commerce com credenciais válidas.
+
+**Massa de dados:** Credenciais não autorizadas.
+
+**Prioridade:** Alta
+
+**Passo a passo para execução:**
+
+1. Navegar até a seção de gerenciamento de produtos e selecionar um produto específico.
+2. Usar Postman para enviar uma requisição à API de estoque com credenciais não autorizadas.
+3. Tentar acessar ou atualizar a quantidade de estoque do produto usando essas credenciais.
+4. Verificar a resposta do sistema e qualquer mensagem de erro exibida.
+5. Registrar o comportamento do sistema e garantir que o acesso não autorizado seja bloqueado.
+
+**Resultado esperado:** O sistema deve exibir uma mensagem de erro clara indicando que o acesso não é autorizado. A API de estoque deve bloquear qualquer tentativa de acesso ou atualização com credenciais não autorizadas.
 
 ### CT-006: Criação de Anúncios com Sucesso
 
 **Descrição:** Verificar se o sistema de e-commerce permite a criação de anúncios com sucesso nos marketplaces.
-**Pré-condições:** A integração entre o e-commerce e o marketplace deve estar configurada e ativa. O usuário deve estar logado no sistema de e-commerce com credenciais válidas.
-**Massa de dados:** Dados completos e válidos para o anúncio.
-**Prioridade:** Alta
-**Passo a passo para execução:**
-1.Navegar até a seção de gerenciamento de anúncios.
-2.Selecionar a opção para criar um novo anúncio.
-3.Preencher todos os campos obrigatórios com dados válidos (nome do produto, descrição, preço, imagem).
-4.Salvar o anúncio e verificar se a criação foi bem-sucedida.
-5.Acessar o marketplace e verificar se o anúncio foi publicado corretamente.
-**Resultado esperado:**
 
-- O anúncio deve ser criado com sucesso no sistema de e-commerce.
-- O anúncio deve ser publicado corretamente no marketplace.
+**Pré-condições:** A integração entre o e-commerce e o marketplace deve estar configurada e ativa. O usuário deve estar logado no sistema de e-commerce com credenciais válidas.
+
+**Massa de dados:** Dados completos e válidos para o anúncio.
+
+**Prioridade:** Alta
+
+**Passo a passo para execução:**
+
+1. Navegar até a seção de gerenciamento de anúncios.
+2. Selecionar a opção para criar um novo anúncio.
+3. Preencher todos os campos obrigatórios com dados válidos (nome do produto, descrição, preço, imagem).
+4. Salvar o anúncio e verificar se a criação foi bem-sucedida.
+5. Acessar o marketplace e verificar se o anúncio foi publicado corretamente.
+
+**Resultado esperado:** O anúncio deve ser criado com sucesso no sistema de e-commerce. O anúncio deve ser publicado corretamente no marketplace.
 
 ### CT-007: Falha na Criação de Anúncios Devido a Dados Incompletos
 
 **Descrição:** Verificar se o sistema de e-commerce lida corretamente com falhas na criação de anúncios devido a dados incompletos.
-**Pré-condições:** A integração entre o e-commerce e o marketplace deve estar configurada e ativa. O usuário deve estar logado no sistema de e-commerce com credenciais válidas.
-**Massa de dados:** Dados incompletos para o anúncio (falta de nome do produto).
-**Prioridade:** Alta
-**Passo a passo para execução:**
-1.Navegar até a seção de gerenciamento de anúncios.
-2.Selecionar a opção para criar um novo anúncio.
-3.Preencher os campos obrigatórios com dados incompletos (deixar o campo de nome do produto vazio).
-4.Tentar salvar o anúncio.
-5.Verificar a mensagem de erro exibida pelo sistema.
-6.Registrar o comportamento do sistema e qualquer mensagem de erro.
-**Resultado esperado:**
 
-- O sistema deve exibir uma mensagem de erro clara indicando que os dados do anúncio estão incompletos.
-- O anúncio não deve ser criado no sistema de e-commerce.
+**Pré-condições:** A integração entre o e-commerce e o marketplace deve estar configurada e ativa. O usuário deve estar logado no sistema de e-commerce com credenciais válidas.
+
+**Massa de dados:** Dados incompletos para o anúncio (falta de nome do produto).
+
+**Prioridade:** Alta
+
+**Passo a passo para execução:**
+
+1. Navegar até a seção de gerenciamento de anúncios.
+2. Selecionar a opção para criar um novo anúncio.
+3. Preencher os campos obrigatórios com dados incompletos (deixar o campo de nome do produto vazio).
+4. Tentar salvar o anúncio.
+5. Verificar a mensagem de erro exibida pelo sistema.
+6. Registrar o comportamento do sistema e qualquer mensagem de erro.
+
+**Resultado esperado:**  O sistema deve exibir uma mensagem de erro clara indicando que os dados do anúncio estão incompletos. O anúncio não deve ser criado no sistema de e-commerce.
 
 ### CT-008: Testes de Desempenho com a Criação de um Grande Número de Anúncios Simultaneamente
 
 **Descrição:** Verificar se o sistema de e-commerce lida corretamente com a criação de um grande número de anúncios simultaneamente.
-**Pré-condições:** A integração entre o e-commerce e o marketplace deve estar configurada e ativa. O usuário deve estar logado no sistema de e-commerce com credenciais válidas.
-**Massa de dados:** Dados completos e válidos para múltiplos anúncios.
-**Prioridade:** Alta
-**Passo a passo para execução:**
-1.Navegar até a seção de gerenciamento de anúncios.
-2.Usar uma ferramenta de teste de carga, como JMeter, para simular a criação de um grande número de anúncios simultaneamente.
-3.Executar o teste de carga e monitorar o desempenho do sistema.
-4.Verificar se todos os anúncios foram criados corretamente.
-5.Registrar o tempo de resposta e qualquer erro ocorrido durante o teste.
-**Resultado esperado:**
 
-- O sistema deve ser capaz de lidar com a criação de um grande número de anúncios simultaneamente sem falhas.
-- O tempo de resposta deve ser aceitável e todos os anúncios devem ser criados corretamente.
+**Pré-condições:** A integração entre o e-commerce e o marketplace deve estar configurada e ativa. O usuário deve estar logado no sistema de e-commerce com credenciais válidas.
+
+**Massa de dados:** Dados completos e válidos para múltiplos anúncios.
+
+**Prioridade:** Alta
+
+**Passo a passo para execução:**
+
+1. Navegar até a seção de gerenciamento de anúncios.
+2. Usar uma ferramenta de teste de carga, como JMeter, para simular a criação de um grande número de anúncios simultaneamente.
+3. Executar o teste de carga e monitorar o desempenho do sistema.
+4. Verificar se todos os anúncios foram criados corretamente.
+5. Registrar o tempo de resposta e qualquer erro ocorrido durante o teste.
+
+**Resultado esperado:** O sistema deve ser capaz de lidar com a criação de um grande número de anúncios simultaneamente sem falhas. O tempo de resposta deve ser aceitável e todos os anúncios devem ser criados corretamente.
 
 ### CT-009: Verificação de Injeção de Código Malicioso nos Campos de Anúncios
 
 **Descrição:** Verificar se o sistema de e-commerce impede a injeção de código malicioso nos campos de anúncios.
-**Pré-condições:** A integração entre o e-commerce e o marketplace deve estar configurada e ativa. O usuário deve estar logado no sistema de e-commerce com credenciais válidas.
-**Massa de dados:** Dados contendo scripts maliciosos nos campos de anúncios.
-**Prioridade:** Alta
-**Passo a passo para execução:**
-1.Navegar até a seção de gerenciamento de anúncios.
-2.Selecionar a opção para criar um novo anúncio.
-3.Preencher os campo de descrição com script malicioso.
-4.Tentar salvar o anúncio.
-5.Verificar a resposta do sistema e qualquer mensagem de erro exibida.
-6.Registrar o comportamento do sistema e garantir que o código malicioso não seja executado.
-**Resultado esperado:**
 
-- O sistema deve exibir uma mensagem de erro clara indicando que os dados do anúncio contêm conteúdo inválido.
-- O código malicioso não deve ser executado e deve ser bloqueado pelo sistema.
+**Pré-condições:** A integração entre o e-commerce e o marketplace deve estar configurada e ativa. O usuário deve estar logado no sistema de e-commerce com credenciais válidas.
+
+**Massa de dados:** Dados contendo scripts maliciosos nos campos de anúncios.
+
+**Prioridade:** Alta
+
+**Passo a passo para execução:**
+
+1. Navegar até a seção de gerenciamento de anúncios.
+2. Selecionar a opção para criar um novo anúncio.
+3. Preencher os campo de descrição com script malicioso.
+4. Tentar salvar o anúncio.
+5. Verificar a resposta do sistema e qualquer mensagem de erro exibida.
+6. Registrar o comportamento do sistema e garantir que o código malicioso não seja executado.
+
+**Resultado esperado:** O sistema deve exibir uma mensagem de erro clara indicando que os dados do anúncio contêm conteúdo inválido. O código malicioso não deve ser executado e deve ser bloqueado pelo sistema.
 
 ### CT-010: Atualização de Anúncios com Sucesso
 
 **Descrição:** Verificar se o sistema de e-commerce permite a atualização de anúncios com sucesso nos marketplaces.
-**Pré-condições:** A integração entre o e-commerce e o marketplace deve estar configurada e ativa. O usuário deve estar logado no sistema de e-commerce com credenciais válidas.
-**Massa de dados:** Anúncios existentes com dados válidos para atualização.
-**Prioridade:** Alta
-**Passo a passo para execução:**
-1.Navegar até a seção de gerenciamento de anúncios.
-2.Selecionar um anúncio existente para atualização.
-3.Atualizar os campos necessários (por exemplo, preço, descrição).
-4.Salvar as alterações e verificar se a atualização foi bem-sucedida.
-5.Acessar o marketplace e verificar se o anúncio foi atualizado corretamente.
-**Resultado esperado:**
 
-- O anúncio deve ser atualizado com sucesso no sistema de e-commerce.
-- O anúncio deve ser atualizado corretamente no marketplace.
+**Pré-condições:** A integração entre o e-commerce e o marketplace deve estar configurada e ativa. O usuário deve estar logado no sistema de e-commerce com credenciais válidas.
+
+**Massa de dados:** Anúncios existentes com dados válidos para atualização.
+
+**Prioridade:** Alta
+
+**Passo a passo para execução:**
+
+1. Navegar até a seção de gerenciamento de anúncios.
+2. Selecionar um anúncio existente para atualização.
+3. Atualizar os campos necessários (por exemplo, preço, descrição).
+4. Salvar as alterações e verificar se a atualização foi bem-sucedida.
+5. Acessar o marketplace e verificar se o anúncio foi atualizado corretamente.
+
+**Resultado esperado:** O anúncio deve ser atualizado com sucesso no sistema de e-commerce. O anúncio deve ser atualizado corretamente no marketplace.
 
 ### CT-011: Exclusão de Anúncios com Sucesso
 
 **Descrição:** Verificar se o sistema de e-commerce permite a exclusão de anúncios com sucesso nos marketplaces.
-**Pré-condições:** A integração entre o e-commerce e o marketplace deve estar configurada e ativa. O usuário deve estar logado no sistema de e-commerce com credenciais válidas.
-**Massa de dados:** Anúncios existentes para exclusão.
-**Prioridade:** Alta
-**Passo a passo para execução:**
-1.Navegar até a seção de gerenciamento de anúncios.
-2.Selecionar um anúncio existente para exclusão.
-3.Confirmar a exclusão do anúncio.
-4.Verificar se a exclusão foi bem-sucedida no sistema de e-commerce.
-5.Acessar o marketplace e verificar se o anúncio foi removido corretamente.
-**Resultado esperado:**
 
-- O anúncio deve ser excluído com sucesso no sistema de e-commerce.
-- O anúncio deve ser removido corretamente no marketplace.
+**Pré-condições:** A integração entre o e-commerce e o marketplace deve estar configurada e ativa. O usuário deve estar logado no sistema de e-commerce com credenciais válidas.
+
+**Massa de dados:** Anúncios existentes para exclusão.
+
+**Prioridade:** Alta
+
+**Passo a passo para execução:**
+
+1. Navegar até a seção de gerenciamento de anúncios.
+2. Selecionar um anúncio existente para exclusão.
+3. Confirmar a exclusão do anúncio.
+4. Verificar se a exclusão foi bem-sucedida no sistema de e-commerce.
+5. Acessar o marketplace e verificar se o anúncio foi removido corretamente.
+
+**Resultado esperado:**  O anúncio deve ser excluído com sucesso no sistema de e-commerce. O anúncio deve ser removido corretamente no marketplace.
 
 ### CT-012: Verificação de Permissões de Usuário na Criação de Anúncios
 
 **Descrição:** Verificar se o sistema de e-commerce respeita as permissões de usuário na criação de anúncios.
-**Pré-condições:** A integração entre o e-commerce e o marketplace deve estar configurada e ativa. O usuário deve estar logado no sistema de e-commerce com credenciais válidas e permissões adequadas.
-**Massa de dados:** Usuários com diferentes níveis de permissão.
-**Prioridade:** Média
-**Passo a passo para execução:**
-1.Navegar até a seção de gerenciamento de anúncios com um usuário com permissões limitadas.
-2.Tentar criar um novo anúncio.
-3.Verificar se o sistema impede a criação de anúncios por usuários sem permissão.
-4.Repetir o teste com um usuário com permissões adequadas.
-**Resultado esperado:**
 
-- O sistema deve impedir a criação de anúncios por usuários sem permissão.
-- O sistema deve permitir a criação de anúncios por usuários com permissões adequadas.
+**Pré-condições:** A integração entre o e-commerce e o marketplace deve estar configurada e ativa. O usuário deve estar logado no sistema de e-commerce com credenciais válidas e permissões adequadas.
+
+**Massa de dados:** Usuários com diferentes níveis de permissão.
+
+**Prioridade:** Média
+
+**Passo a passo para execução:**
+
+1. Navegar até a seção de gerenciamento de anúncios com um usuário com permissões limitadas.
+2. Tentar criar um novo anúncio.
+3. Verificar se o sistema impede a criação de anúncios por usuários sem permissão.
+4. Repetir o teste com um usuário com permissões adequadas.
+
+**Resultado esperado:** O sistema deve impedir a criação de anúncios por usuários sem permissão. O sistema deve permitir a criação de anúncios por usuários com permissões adequadas.
 
 ### CT-013: Processamento Correto de Pagamentos e Geração de Faturas
 
 **Descrição:** Verificar se o sistema de e-commerce processa pagamentos corretamente e gera faturas de forma adequada.
-**Pré-condições:** A integração entre o e-commerce e o marketplace deve estar configurada e ativa. O usuário deve estar logado no sistema de e-commerce com credenciais válidas.
-**Massa de dados:** Dados completos e válidos para transações.
-**Prioridade:** Alta
-**Passo a passo para execução:**
-1.Navegar até a seção de gerenciamento de pedidos.
-2.Selecionar um pedido específico para processamento.
-3.Inserir as informações de pagamento válidas.
-4.Processar o pagamento.
-5.Verificar se o pagamento foi processado com sucesso.
-6.Gerar a fatura para o pedido.
-7.Verificar se a fatura foi gerada corretamente e contém todas as informações necessárias.
-**Resultado esperado:**
 
-- O pagamento deve ser processado com sucesso.
-- A fatura deve ser gerada corretamente e conter todas as informações necessárias.
+**Pré-condições:** A integração entre o e-commerce e o marketplace deve estar configurada e ativa. O usuário deve estar logado no sistema de e-commerce com credenciais válidas.
+
+**Massa de dados:** Dados completos e válidos para transações.
+
+**Prioridade:** Alta
+
+**Passo a passo para execução:**
+
+1. Navegar até a seção de gerenciamento de pedidos.
+2. Selecionar um pedido específico para processamento.
+3. Inserir as informações de pagamento válidas.
+4. Processar o pagamento.
+5. Verificar se o pagamento foi processado com sucesso.
+6. Gerar a fatura para o pedido.
+7. Verificar se a fatura foi gerada corretamente e contém todas as informações necessárias.
+
+**Resultado esperado:** O pagamento deve ser processado com sucesso. A fatura deve ser gerada corretamente e conter todas as informações necessárias.
 
 ### CT-014: Falha no Processamento de Pagamentos Devido a Problemas de Gateway de Pagamento
 
