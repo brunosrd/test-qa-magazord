@@ -2,7 +2,7 @@
 
 ## Introdução
 
-A Magazord é uma plataforma de e-commerce que oferece soluções integradas para otimizar operações online. Para este teste para vaga de Analista de Qualidade, preparei a documentação necessária para garantir a eficiência das integrações entre o e-commerce e os marketplaces, além da ferramenta de gerenciamento de estoque Bling. Também documentei os procedimentos para verificar que os anúncios sejam automaticamente atualizados e certifiquei que alterações nos campos de cadastro estejam funcionando corretamente.
+A Magazord é uma plataforma de e-commerce que oferece soluções integradas para otimizar operações online. Para este teste para vaga de Analista de Qualidade, preparei a documentação necessária para garantir a eficiência das integrações entre o e-commerce e os marketplaces, além da ferramenta de gerenciamento de estoque Bling. Também documentei os procedimentos para verificar que os anúncios sejam automaticamente atualizados e certifiquei que após alterações os campos de cadastro estejam funcionando corretamente.
 
 ## Recursos
 
