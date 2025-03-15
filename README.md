@@ -157,7 +157,7 @@ A Magazord é uma plataforma de e-commerce que oferece soluções integradas par
 
 Para acessar a resolução dos quatro cenários, confira os documentos:
 
-- [Plano de Teste](https://github.com/brunosrd/teste-qa-megazord/blob/main/documenta%C3%A7%C3%A3o/Plano%20de%20%20Teste.md)
-- [Casos de Teste](https://github.com/brunosrd/teste-qa-megazord/blob/main/documenta%C3%A7%C3%A3o/Casos%20de%20Teste.md)
+- [Plano de Teste](https://github.com/brunosrd/teste-qa-megazord/blob/main/documenta%C3%A7%C3%A3o/PlanoDeTeste.md)
+- [Casos de Teste](https://github.com/brunosrd/teste-qa-megazord/blob/main/documenta%C3%A7%C3%A3o/CasosDeTeste.md)
 
 ---
