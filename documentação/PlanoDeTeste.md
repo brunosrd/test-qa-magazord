@@ -87,7 +87,11 @@
 - **Histórico de Bugs:** Funcionalidades que tiveram problemas em testes anteriores e necessitam de atenção especia.
 - **Complexidade Técnica:** Funcionalidades que envolvem lógica de negócios complexa ou múltiplos pontos de integração.
 - **Frequência de Uso:** Funcionalidades que são usadas com mais frequência pelos usuários finais.
-  
+
+**Para observar a descrição detalhada:**
+
+- [Casos de Teste](https://github.com/brunosrd/teste-qa-megazord/blob/main/documenta%C3%A7%C3%A3o/CasosDeTeste.md)
+
 ### 3.Execução dos Testes
 
 **Ambiente de Teste:**
@@ -372,5 +376,9 @@
   - Testo falhas na inserção de CEPs com caracteres especiais.
   - Testo falhas na inserção de CEPs com formato inválido.
   - Testo falhas na inserção de CEPs com espaços em branco.
+
+**Para observar a descrição detalhada:**
+
+- [Casos de Teste](https://github.com/brunosrd/teste-qa-megazord/blob/main/documenta%C3%A7%C3%A3o/CasosDeTeste.md)
 
 ---
