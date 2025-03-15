@@ -16,14 +16,14 @@ A Magazord é uma plataforma de e-commerce que oferece soluções integradas par
 
 - **1° Cenário:** Garantir que a integração de estoque, anúncios, faturamento, pedidos e preço entre o e-commerce e os marketplaces funcione corretamente.
 - **2° Cenário:** Garantir que a integração com a ferramenta de gerenciamento de estoque Bling funcione corretamente no e-commerce.
-- **3° Cenário:** Garantir que os anúncios sejam corretamente atualizados para "Pausado (sem estoque)" no Mercado Livre quando o estoque se esgota no Magazord.
+- **3° Cenário:** Garantir que os anúncios sejam corretamente atualizados para "Pausado (sem estoque)" no Mercado Livre quando o estoque se esgota no e-commerce.
 - **4° Cenário:** Garantir que os campos de cadastro de nome completo, e-mail, número de telefone, data de nascimento e endereço estejam funcionando corretamente e validando os dados conforme esperado.
 
 ## Critérios de Aceitação
 
 - **1° Cenário:** As atualizações de dados devem ser refletidas corretamente e sem discrepâncias entre o e-commerce e os marketplaces em até 10 minutos.
 - **2° Cenário:** As atualizações de estoque devem ser refletidas corretamente e sem discrepâncias entre o e-commerce e o Bling em até 10 minutos.
-- **3° Cenário:** Os anúncios devem ser automaticamente atualizados para "Pausado (sem estoque)" no Mercado Livre quando o estoque atinge zero no Magazord, sem necessidade de intervenção manual.
+- **3° Cenário:** Os anúncios devem ser automaticamente atualizados para "Pausado (sem estoque)" no Mercado Livre quando o estoque atinge zero no e-commerce, sem necessidade de intervenção manual.
 - **4° Cenário:** Os campos de cadastro devem validar corretamente os dados inseridos, rejeitando entradas inválidas e aceitando apenas dados válidos, conforme as regras de negócio definidas.
 
 ## **Riscos e Mitigações**
