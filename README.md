@@ -41,14 +41,6 @@ A Magazord é uma plataforma de e-commerce que oferece soluções integradas par
   - **Risco**: Dados incorretos ou incompletos.
   - **Mitigação**: Implementar validações rigorosas e criptografia de dados.
 
-## Configuração do Ambiente
-
-- **Versões de Software:**
-  - **Navegadores:** Google Chrome versão 128.0.6613.137 (Versão oficial) 64 bits
-  - **Desktops:** Windows 11
-- **Hardware:**
-  - **Servidor de Teste:** Configuração 16 vCPUs, 32 GB RAM, 1 TB SSD
-
 ## Escopo de Testes
 
 ### Testes de Integração
