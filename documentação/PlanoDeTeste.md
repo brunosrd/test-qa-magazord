@@ -303,87 +303,74 @@
 
 #### Nome Completo
 
-**Cenários de Sucesso:** Verifico a inserção correta de nomes completos válidos.
-
-**Cenários de Falha:**
-
-- Testo falhas na inserção de campo vazio.
-- Testo falhas na inserção de nomes com comprimento mínimo.
-- Testo falhas na inserção de nomes com caracteres especiais.
-- Testo falhas na inserção de nomes com números.
+- **Cenários de Sucesso:** Verifico a inserção correta de nomes completos válidos.
+- **Cenários de Falha:**
+  - Testo falhas na inserção de campo vazio.
+  - Testo falhas na inserção de nomes com comprimento mínimo.
+  - Testo falhas na inserção de nomes com caracteres especiais.
+  - Testo falhas na inserção de nomes com números.
 
 #### E-mail
 
-**Cenários de Sucesso:** Verifico a inserção correta de e-mails válidos.
-
-**Cenários de Falha:**
-
-- Testo falhas na inserção de campo vazio.
-- Testo falhas na inserção de e-mails com formato inválido.
-- Testo falhas na inserção de e-mails com domínios inválidos.
-- Testo falhas na inserção de e-mails com espaços em branco.
+- **Cenários de Sucesso:** Verifico a inserção correta de e-mails válidos.
+- **Cenários de Falha:**
+  - Testo falhas na inserção de campo vazio.
+  - Testo falhas na inserção de e-mails com formato inválido.
+  - Testo falhas na inserção de e-mails com domínios inválidos.
+  - Testo falhas na inserção de e-mails com espaços em branco.
 
 #### Número de Telefone
 
-**Cenários de Sucesso:** Verifico a inserção correta de números de telefone válidos.
-
-**Cenários de Falha:**
-
-- Testo falhas na inserção de campo vazio.
-- Testo falhas na inserção de números de telefone com comprimento mínimo.
-- Testo falhas na inserção de números de telefone com comprimento máximo.
-- Testo falhas na inserção de números de telefone com caracteres especiais.
-- Testo falhas na inserção de números de telefone com letras.
-- Testo falhas na inserção de números de telefone em formatos internacionais.
+- **Cenários de Sucesso:** Verifico a inserção correta de números de telefone válidos.
+- **Cenários de Falha:**
+  - Testo falhas na inserção de campo vazio.
+  - Testo falhas na inserção de números de telefone com comprimento mínimo.
+  - Testo falhas na inserção de números de telefone com comprimento máximo.
+  - Testo falhas na inserção de números de telefone com caracteres especiais.
+  - Testo falhas na inserção de números de telefone com letras.
+  - Testo falhas na inserção de números de telefone em formatos internacionais.
 
 #### Data de Nascimento
 
-**Cenários de Sucesso:** Verifico a inserção correta de datas de nascimento válidas.
-
-**Cenários de Falha:**
-
-- Testo falhas na inserção de campo vazio.
-- Testo falhas na inserção de datas de nascimento com formato inválido.
-- Testo falhas na inserção de datas de nascimento no futuro.
-- Testo falhas na inserção de datas de nascimento com letras.
+- **Cenários de Sucesso:** Verifico a inserção correta de datas de nascimento válidas.
+- **Cenários de Falha:**
+  - Testo falhas na inserção de campo vazio.
+  - Testo falhas na inserção de datas de nascimento com formato inválido.
+  - Testo falhas na inserção de datas de nascimento no futuro.
+  - Testo falhas na inserção de datas de nascimento com letras.
 
 #### Rua
 
-**Cenários de Sucesso:** Verifico a inserção correta de ruas válidas.
-
-**Cenários de Falha:**
-
-- Testo falhas na inserção de campo vazio.
-- Testo falhas na inserção de ruas com caracteres especiais.
+- **Cenários de Sucesso:** Verifico a inserção correta de ruas válidas.
+- **Cenários de Falha:**
+  - Testo falhas na inserção de campo vazio.
+  - Testo falhas na inserção de ruas com caracteres especiais.
 
 #### Cidade
 
-**Cenários de Sucesso:** Verifico a inserção correta de cidades válidas.
+- **Cenários de Sucesso:** Verifico a inserção correta de cidades válidas.
 
-**Cenários de Falha:**
-
-- Testo falhas na inserção de campo vazio.
-- Testo falhas na inserção de cidades com caracteres especiais.
-- Testo falhas na inserção de cidades com números.
+- **Cenários de Falha:**
+  - Testo falhas na inserção de campo vazio.
+  - Testo falhas na inserção de cidades com caracteres especiais.
+  - Testo falhas na inserção de cidades com números.
 
 #### Estado
 
-**Cenários de Sucesso:** Verifico a inserção correta de estados válidos.
+- **Cenários de Sucesso:** Verifico a inserção correta de estados válidos.
 
-**Cenários de Falha:**
-
-- Testo falhas na inserção de campo vazio.
-- Testo falhas na inserção de estados com caracteres especiais.
-- Testo falhas na inserção de estados com números.
+- **Cenários de Falha:**
+  - Testo falhas na inserção de campo vazio.
+  - Testo falhas na inserção de estados com caracteres especiais.
+  - Testo falhas na inserção de estados com números.
 
 #### CEP
 
-**Cenários de Sucesso:** Verifico a inserção correta de CEPs válidos.
+- **Cenários de Sucesso:** Verifico a inserção correta de CEPs válidos.
 
-**Cenários de Falha:**
-
-- Testo falhas na inserção de CEPs com caracteres especiais.
-- Testo falhas na inserção de CEPs com formato inválido.
-- Testo falhas na inserção de CEPs com espaços em branco.
+- **Cenários de Falha:**
+  - Testo falhas na inserção de CEPs com caracteres especiais.
+  - Testo falhas na inserção de CEPs com formato inválido.
+  - Testo falhas na inserção de CEPs com espaços em branco.
 
 ---
