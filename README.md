@@ -53,16 +53,11 @@ A Magazord é uma plataforma de e-commerce que oferece soluções integradas par
 
 ### Testes de Integração
 
-#### Testes de Estoque
-
 - **CT-001:** Verificação da Sincronização Correta de Quantidades de Produtos no E-commerce
 - **CT-002:** Verificação da Sincronização Correta de Quantidades de Produtos no Marketplace
 - **CT-003:** Falha na Atualização de Estoque Devido a Problemas de API
 - **CT-004:** Testes de Desempenho com Grandes Volumes de Atualizações de Estoque
 - **CT-005:** Verificação de Acesso Não Autorizado à API de Estoque
-
-#### Testes de Anúncios
-
 - **CT-006:** Criação de Anúncios com Sucesso
 - **CT-007:** Falha na Criação de Anúncios Devido a Dados Incompletos
 - **CT-008:** Testes de Desempenho com a Criação de um Grande Número de Anúncios Simultaneamente
@@ -70,9 +65,6 @@ A Magazord é uma plataforma de e-commerce que oferece soluções integradas par
 - **CT-010:** Atualização de Anúncios com Sucesso
 - **CT-011:** Exclusão de Anúncios com Sucesso
 - **CT-012:** Verificação de Permissões de Usuário na Criação de Anúncios
-
-#### Testes de Pagamentos
-
 - **CT-013:** Processamento Correto de Pagamentos e Geração de Faturas
 - **CT-014:** Falha no Processamento de Pagamentos Devido a Problemas de Gateway de Pagamento
 - **CT-015:** Testes de Desempenho com um Grande Volume de Transações Simultâneas
@@ -80,17 +72,11 @@ A Magazord é uma plataforma de e-commerce que oferece soluções integradas par
 - **CT-017:** Verificação de Reembolsos
 - **CT-018:** Verificação de Pagamentos Parciais
 - **CT-019:** Verificação de Diversos Métodos de Pagamento
-
-#### Testes de Pedidos
-
 - **CT-020:** Cancelamento de Pedidos com Sucesso
 - **CT-021:** Falha na Atualização de Pedidos Devido a Inconsistências de Dados
 - **CT-022:** Testes de Desempenho com um Grande Volume de Pedidos Simultâneos
 - **CT-023:** Verificação de Acesso Não Autorizado aos Dados de Pedidos
 - **CT-024:** Verificação de Atualização de Status de Pedido
-
-#### Testes de Preços
-
 - **CT-025:** Atualização Correta dos Preços dos Produtos nos Marketplaces
 - **CT-026:** Falha na Atualização de Preços Devido a Problemas de API
 - **CT-027:** Testes de Desempenho com um Grande Volume de Atualizações de Preços
@@ -101,24 +87,16 @@ A Magazord é uma plataforma de e-commerce que oferece soluções integradas par
 
 ### Testes Validação de Cadastro
 
-#### Nome Completo
-
 - **CT-032:** Nome Completo - Entrada Válida
 - **CT-033:** Nome Completo - Campo Vazio
 - **CT-034:** Nome Completo - Comprimento Mínimo
 - **CT-035:** Nome Completo - Caracteres Especiais
 - **CT-036:** Nome Completo - Números.
-
-#### E-mail
-
 - **CT-037:** E-mail - Entrada Válida
 - **CT-038:** E-mail - Campo Vazio
 - **CT-039:** E-mail - Formato Inválido
 - **CT-040:** E-mail - Domínios Inválidos
 - **CT-041:** E-mail - Espaços em Branco
-
-#### Número de Telefone
-
 - **CT-042:** Número de Telefone - Entrada Válida
 - **CT-043:** Número de Telefone - Campo Vazio
 - **CT-044:** Número de Telefone - Comprimento Mínimo
@@ -126,17 +104,11 @@ A Magazord é uma plataforma de e-commerce que oferece soluções integradas par
 - **CT-046:** Número de Telefone - Caracteres Especiais
 - **CT-047:** Número de Telefone - Letras
 - **CT-048:** Número de Telefone - Formatos Internacionais
-
-#### Data de Nascimento
-
 - **CT-049:** Data de Nascimento - Entrada Válida
 - **CT-050:** Data de Nascimento - Campo Vazio
 - **CT-051:** Data de Nascimento - Formato Inválido
 - **CT-052:** Data de Nascimento - Data Futura
 - **CT-053:** Data de Nascimento - Letras
-
-#### Endereço
-
 - **CT-054:** Rua - Entrada Válida
 - **CT-055:** Rua - Campo Vazio
 - **CT-056:** Rua - Caracteres Especiais
