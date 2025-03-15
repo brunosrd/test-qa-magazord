@@ -117,9 +117,9 @@ A Magazord é uma plataforma de e-commerce que oferece soluções integradas par
 - **CT-067:** CEP - Formato Inválido
 - **CT-068:** CEP - Espaços em Branco
 
-## Footer
+## Documentação Completa
 
-Para acessar a resolução dos quatro cenários, confira os documentos:
+**Para acessar a resolução dos quatro cenários, confira os documentos:**
 
 - [Plano de Teste](https://github.com/brunosrd/teste-qa-megazord/blob/main/documenta%C3%A7%C3%A3o/PlanoDeTeste.md)
 - [Casos de Teste](https://github.com/brunosrd/teste-qa-megazord/blob/main/documenta%C3%A7%C3%A3o/CasosDeTeste.md)
