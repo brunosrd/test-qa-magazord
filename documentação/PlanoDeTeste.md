@@ -79,6 +79,9 @@
 - **Cenários de Carga:** Realizo testes de desempenho com um grande volume de atualizações de preços.
 - **Cenários de Segurança:** Verifico manipulação não autorizada dos preços dos produtos.
 
+> **Para observar a descrição detalhada:**
+> [Casos de Teste](https://github.com/brunosrd/teste-qa-megazord/blob/main/documenta%C3%A7%C3%A3o/CasosDeTeste.md)
+
 **Priorização dos Testes:**
 
 - **Criticidade da Funcionalidade:** Funcionalidades essenciais para o funcionamento do e-commerce e integração com os marketplaces.
@@ -87,9 +90,6 @@
 - **Histórico de Bugs:** Funcionalidades que tiveram problemas em testes anteriores e necessitam de atenção especia.
 - **Complexidade Técnica:** Funcionalidades que envolvem lógica de negócios complexa ou múltiplos pontos de integração.
 - **Frequência de Uso:** Funcionalidades que são usadas com mais frequência pelos usuários finais.
-
-> **Para observar a descrição detalhada:**
-> [Casos de Teste](https://github.com/brunosrd/teste-qa-megazord/blob/main/documenta%C3%A7%C3%A3o/CasosDeTeste.md)
 
 ### 3.Execução dos Testes
 
@@ -352,7 +352,6 @@
 #### Cidade
 
 - **Cenários de Sucesso:** Verifico a inserção correta de cidades válidas.
-
 - **Cenários de Falha:**
   - Testo falhas na inserção de campo vazio.
   - Testo falhas na inserção de cidades com caracteres especiais.
@@ -361,7 +360,6 @@
 #### Estado
 
 - **Cenários de Sucesso:** Verifico a inserção correta de estados válidos.
-
 - **Cenários de Falha:**
   - Testo falhas na inserção de campo vazio.
   - Testo falhas na inserção de estados com caracteres especiais.
@@ -370,7 +368,6 @@
 #### CEP
 
 - **Cenários de Sucesso:** Verifico a inserção correta de CEPs válidos.
-
 - **Cenários de Falha:**
   - Testo falhas na inserção de CEPs com caracteres especiais.
   - Testo falhas na inserção de CEPs com formato inválido.
