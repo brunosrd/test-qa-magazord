@@ -95,7 +95,8 @@
 4. Salvar o anúncio e verificar se a criação foi bem-sucedida.
 5. Acessar o marketplace e verificar se o anúncio foi publicado corretamente.
 
-- **Resultado esperado:** O anúncio deve ser criado com sucesso no sistema de e-commerce. O anúncio deve ser publicado corretamente no marketplace.
+- **Resultado esperado:**
+  - O anúncio deve ser criado com sucesso no sistema de e-commerce. O anúncio deve ser publicado corretamente no marketplace.
 
 ### CT-007: Falha na Criação de Anúncios Devido a Dados Incompletos
 
@@ -112,7 +113,8 @@
 5. Verificar a mensagem de erro exibida pelo sistema.
 6. Registrar o comportamento do sistema e qualquer mensagem de erro.
 
-- **Resultado esperado:**  O sistema deve exibir uma mensagem de erro clara indicando que os dados do anúncio estão incompletos. O anúncio não deve ser criado no sistema de e-commerce.
+- **Resultado esperado:**
+  - O sistema deve exibir uma mensagem de erro clara indicando que os dados do anúncio estão incompletos. O anúncio não deve ser criado no sistema de e-commerce.
 
 ### CT-008: Testes de Desempenho com a Criação de um Grande Número de Anúncios Simultaneamente
 
@@ -165,7 +167,8 @@
 4. Salvar as alterações e verificar se a atualização foi bem-sucedida.
 5. Acessar o marketplace e verificar se o anúncio foi atualizado corretamente.
 
-- **Resultado esperado:** O anúncio deve ser atualizado com sucesso no sistema de e-commerce. O anúncio deve ser atualizado corretamente no marketplace.
+- **Resultado esperado:**
+  - O anúncio deve ser atualizado com sucesso no sistema de e-commerce. O anúncio deve ser atualizado corretamente no marketplace.
 
 ### CT-011: Exclusão de Anúncios com Sucesso
 
