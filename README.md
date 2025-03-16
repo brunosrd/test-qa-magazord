@@ -1,4 +1,4 @@
-# Desafio Megazord
+# Teste para vaga de Analista de Qualidade no Magazord
 
 ## Introdução
 

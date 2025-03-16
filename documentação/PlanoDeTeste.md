@@ -1,4 +1,4 @@
-# Plano de Teste Desafio Megazord
+# Plano de Teste
 
 ## 1º Cenário: Plano de testes para validar a integração com o marketplace
 
@@ -78,6 +78,18 @@
 - **Cenários de Falha:** Testo falhas na atualização de preços devido a problemas de rede ou API.
 - **Cenários de Carga:** Realizo testes de desempenho com um grande volume de atualizações de preços.
 - **Cenários de Segurança:** Verifico manipulação não autorizada dos preços dos produtos.
+
+**Integração de Dados:**
+
+- **Cenários de Sucesso:** Verifico que os dados são corretamente integrados e consistentes entre os sistemas.
+- **Cenários de Falha:** Testo falhas na integração de dados devido a problemas de comunicação ou inconsistências de dados.
+- **Cenários de Carga:** Realizo testes de desempenho com grandes volumes de dados integrados.
+- **Cenários de Segurança:** Verifico a segurança na transmissão e armazenamento de dados integrados.
+
+**Compatibilidade:**
+
+- **Cenários de Sucesso:** Verifico que a aplicação funciona corretamente em todos os navegadores e dispositivos suportados.
+- **Cenários de Falha:** Identifico problemas de compatibilidade em navegadores ou dispositivos
 
 > **Para observar a descrição detalhada:**
 > [Casos de Teste](https://github.com/brunosrd/teste-qa-megazord/blob/main/documenta%C3%A7%C3%A3o/CasosDeTeste.md)

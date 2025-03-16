@@ -1,4 +1,4 @@
-# **Casos de Teste Desafio Megazord**
+# Casos de Teste
 
 ## Cenário 1°: Integração de Marketplaces
 
@@ -830,7 +830,7 @@
 - **Passo a passo para execução:**
 
 1. Acessar a página de cadastro.
-2. Inserir "2000-01-01" no campo Data de Nascimento.
+2. Inserir "2000-0-1-01" no campo Data de Nascimento.
 3. Submeter o formulário.
 
 - **Resultado esperado:**
