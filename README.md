@@ -21,8 +21,8 @@ A Magazord é uma plataforma de e-commerce que oferece soluções integradas par
 
 ## Critérios de Aceitação
 
-- **1° Cenário:** As atualizações de dados devem ser refletidas corretamente e sem discrepâncias entre o e-commerce e os marketplaces em até 10 minutos.
-- **2° Cenário:** As atualizações de estoque devem ser refletidas corretamente e sem discrepâncias entre o e-commerce e o Bling em até 10 minutos.
+- **1° Cenário:** As atualizações de dados devem ser refletidas corretamente e sem discrepâncias entre o e-commerce e os marketplaces.
+- **2° Cenário:** As atualizações de estoque devem ser refletidas corretamente e sem discrepâncias entre o e-commerce e o Bling.
 - **3° Cenário:** Os anúncios devem ser automaticamente atualizados para "Pausado (sem estoque)" no Mercado Livre quando o estoque atinge zero no e-commerce, sem necessidade de intervenção manual.
 - **4° Cenário:** Os campos de cadastro devem validar corretamente os dados inseridos, rejeitando entradas inválidas e aceitando apenas dados válidos, conforme as regras de negócio definidas.
 
