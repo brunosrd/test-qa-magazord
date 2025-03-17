@@ -41,9 +41,9 @@ A Magazord é uma plataforma de e-commerce que oferece soluções integradas par
   - **Risco**: Dados incorretos ou incompletos.
   - **Mitigação**: Implementar validações rigorosas e criptografia de dados.
 
-## Escopo de Testes
+## Escopo
 
-### Testes de Integração
+### Casos de Testes de Integração
 
 - **CT-001:** Verificação da Sincronização Correta de Quantidades de Produtos no E-commerce
 - **CT-002:** Verificação da Sincronização Correta de Quantidades de Produtos no Marketplace
@@ -77,7 +77,7 @@ A Magazord é uma plataforma de e-commerce que oferece soluções integradas par
 - **CT-030:** Verificação de Descontos e Promoções
 - **CT-031:** Verificação de Histórico de Preços
 
-### Testes Validação de Cadastro
+### Casos de Testes Validação de Cadastro
 
 - **CT-032:** Nome Completo - Entrada Válida
 - **CT-033:** Nome Completo - Campo Vazio
