@@ -119,7 +119,7 @@ A Magazord é uma plataforma de e-commerce que oferece soluções integradas par
 
 ## Documentação Completa
 
-**Para acessar a resolução dos quatro cenários, confira o documento:**
+**Para acessar a resolução dos quatros cenários, confira o documento:**
 
 - [Plano de Teste](https://github.com/brunosrd/teste-qa-megazord/blob/main/documenta%C3%A7%C3%A3o/PlanoDeTeste.md)
 
