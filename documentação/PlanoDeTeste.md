@@ -1,6 +1,6 @@
 # Plano de Teste
 
-## 1º Cenário: Plano de testes para validar a integração com o marketplace
+## 1º Cenário: Plano de Testes para Validar a Integração de E-commerce com o Marketplace
 
 ### 1.Documentação e Materiais de Apoio
 
@@ -34,7 +34,7 @@
 
 ### 2.Abrangência dos Testes
 
-**Funcionalidades de Integração:**
+**Funcionalidades:**
 
 - **Estoque:** Verifico a sincronização de quantidade de produtos.
 - **Anúncios:** Crio, atualizo e excluo anúncios.
@@ -42,18 +42,18 @@
 - **Pedidos:** Recebo, atualizo e cancelo pedidos.
 - **Preço:** Atualizo preços dos produtos.
 
-#### Casos de Uso
+#### Casos de Uso de Integração
 
 **Estoque:**
 
-- **Cenários de Sucesso:** Verifico a sincronização correta de quantidades de produtos.
+- **Cenários de Sucesso:** Verifico a sincronização de quantidades de produtos.
 - **Cenários de Falha:** Testo falhas na atualização de estoque devido a problemas de rede ou API.
 - **Cenários de Carga:** Realizo testes de desempenho com grandes volumes de atualizações de estoque.
 - **Cenários de Segurança:** Verifico acesso não autorizado à API de estoque.
 
 **Anúncios:**
 
-- **Cenários de Sucesso:** Crio, atualizo e excluo anúncios com sucesso.
+- **Cenários de Sucesso:** Crio, atualizo e excluo anúncios.
 - **Cenários de Falha:** Testo falhas na criação de anúncios devido a dados incompletos ou inválidos.
 - **Cenários de Carga:** Realizo testes de desempenho com a criação de um grande número de anúncios simultaneamente.
 - **Cenários de Segurança:** Verifico injeção de código malicioso nos campos de anúncios.
@@ -67,29 +67,22 @@
   
 **Pedidos:**
 
-- **Cenários de Sucesso:** Recebo, atualizo e cancelo pedidos com sucesso.
+- **Cenários de Sucesso:** Recebo, atualizo e cancelo pedidos.
 - **Cenários de Falha:** Testo falhas na atualização de pedidos devido a inconsistências de dados.
 - **Cenários de Carga:** Realizo testes de desempenho com um grande volume de pedidos simultâneos.
 - **Cenários de Segurança:** Verifico acesso não autorizado aos dados de pedidos.
 
 **Preço:**
 
-- **Cenários de Sucesso:** Atualizo preços dos produtos nos marketplaces corretamente.
+- **Cenários de Sucesso:** Atualizo preços dos produtos.
 - **Cenários de Falha:** Testo falhas na atualização de preços devido a problemas de rede ou API.
 - **Cenários de Carga:** Realizo testes de desempenho com um grande volume de atualizações de preços.
 - **Cenários de Segurança:** Verifico manipulação não autorizada dos preços dos produtos.
 
-**Integração de Dados:**
-
-- **Cenários de Sucesso:** Verifico que os dados são corretamente integrados e consistentes entre os sistemas.
-- **Cenários de Falha:** Testo falhas na integração de dados devido a problemas de comunicação ou inconsistências de dados.
-- **Cenários de Carga:** Realizo testes de desempenho com grandes volumes de dados integrados.
-- **Cenários de Segurança:** Verifico a segurança na transmissão e armazenamento de dados integrados.
-
 **Compatibilidade:**
 
 - **Cenários de Sucesso:** Verifico que a aplicação funciona corretamente em todos os navegadores e dispositivos suportados.
-- **Cenários de Falha:** Identifico problemas de compatibilidade em navegadores ou dispositivos
+- **Cenários de Falha:** Identifico problemas de compatibilidade em navegadores ou dispositivos.
 
 > **Para observar a descrição detalhada:**
 > [Casos de Teste](https://github.com/brunosrd/teste-qa-megazord/blob/main/documenta%C3%A7%C3%A3o/CasosDeTeste.md)
@@ -132,7 +125,7 @@
   
 ---
   
-## 2º Cenário: Plano de testes para validar a integração com Bling
+## 2º Cenário: Plano de Testes para Validar a Integração com Bling
   
 ### 1. Documentação e Materiais de Apoio
 
@@ -143,19 +136,19 @@
 - Requisitos do Projeto.
 - Histórico de bugs e relatórios de testes anteriores.
 
-**Análise da documentação:**
+**Análise da Documentação:**
 
 - Incluo guias de API, manuais de usuário e qualquer documentação técnica fornecida pela Bling.
 - Documentos que detalham como a integração foi implementada, incluindo diagramas de arquitetura, fluxos de dados e especificações de endpoints.
 - Documentos que descrevem os requisitos funcionais e não funcionais da integração, incluindo casos de uso, critérios de aceitação e expectativas de desempenho.
 - Adiciono uma análise detalhada dos bugs anteriores para identificar padrões e áreas que podem precisar de atenção especial durante os testes.
 
-**Mapeamento dos requisitos:**
+**Mapeamento dos Requisitos:**
 
 - Crio casos de teste específicos para cada requisito funcional e não funcional, garantindo que todos os aspectos da integração sejam validados.
 - Utilizo uma matriz de rastreabilidade para garantir que todos os requisitos do projeto estejam cobertos pelos casos de teste.
 
-**Utilização de ferramentas:**
+**Utilização de Ferramentas:**
 
 - Para rastreamento de requisitos, criação de casos de teste, gerenciamento de tarefas e colaborar com a equipe: Jira + Xray e Trello.
 - Para análise de conteúdo textual, extração de informações significativas e identificação de padrões: MyMap.
@@ -172,7 +165,7 @@
 - **Segurança e Permissões:** Asseguro que apenas usuários autorizados possam acessar e modificar dados sensíveis. Realizar testes de acesso com diferentes níveis de permissão.
 - **Desempenho:** Avalio a performance da integração sob diferentes condições de carga, incluindo grandes volumes de dados e transações simultâneas.
 
-**Priorização dos testes:**
+**Priorização dos Testes:**
 
 - **Criticidade da Funcionalidade:** Avalio a importância da funcionalidade para o funcionamento geral do sistema.
 - **Impacto no Negócio:** Considero o impacto que a funcionalidade tem no negócio, incluindo receita e operações.
@@ -186,7 +179,7 @@
 
 - Ambiente de homologação que replica o ambiente de produção, mas sem impactar os usuários finais, permitindo testar todas as funcionalidades da integração de forma segura e controlada.
 
-**Dados de teste:**
+**Dados de Teste:**
 
 - **Dados de Produtos:** Crio um conjunto de dados de produtos com diferentes categorias, preços, descrições e atributos para testar a sincronização e atualização de produtos.
 - **Dados de Estoque:** Gero dados de estoque com diferentes quantidades e localizações para validar a atualização e sincronização de estoque.
@@ -314,7 +307,7 @@
 
 ## 4º Cenário: Validar campos de cadastro alterados
 
-### Casos de Uso
+### Casos de Uso de Validação 
 
 #### Nome Completo
 
